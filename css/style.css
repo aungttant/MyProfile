@@ -1,9 +1,40 @@
 body{
-	background-color: red;
+	background-color: #1f1e1e;
+	color: #f1f1f1;
+	padding: 0px 20px 0px 20px;
 }
-#about{
-	color: royalblue;
+
+a#link{
+	background-color: #ebebeb;
+	border-radius: 10%;
+	color: rgb(241, 164, 20);
+	text-decoration: none;
+	font-size: 1.5rem;
+	margin: 20px;
 }
-h2{
-	color: darkblue;
+a#link:hover{
+	background-color: rgb(241, 164, 20);
+	border-radius: 5%;
+	color: #ebebeb;
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+a{
+	color: rgb(241, 164, 20);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(241, 164, 20);
+	text-decoration: overline;
+	font-size: 25px;
+}
+p{
+	padding: 0px 20px 0px 20px;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+}
+footer{
+	margin-top: 10px;
+	background-color: #3a3939;
+	padding: 10px;
 }
